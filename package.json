@@ -1,0 +1,25 @@
+{
+  "name": "record-collection-uploader",
+  "version": "1.0.0",
+  "description": "uploads csv collection from record scanner to github",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jrvgr/record-scanner-discogs-uploader.git"
+  },
+  "author": "jrvgr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrvgr/record-scanner-discogs-uploader/issues"
+  },
+  "homepage": "https://github.com/jrvgr/record-scanner-discogs-uploader#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12"
+  }
+}
